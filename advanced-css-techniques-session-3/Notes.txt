@@ -1,0 +1,88 @@
+--> Git and Github:
+
+-> Git: It is a DevOps tool used for source code management. It is a free and open-source
+version control system and used to handle small to very large projects efficiently. 
+
+Git is used to tracking changes in the source code, enabling multiple developers 
+to work together on non-linear development. Linus Torvalds created Git in 2005 for the development
+of the linux kernel.
+
+--> Features of Git:
+
+ 1. Track history
+ 2. Free and Open source
+ 3. Supports non-linear development
+ 4. Creates backups
+ 5. Scalable
+ 6. Supports Collaboration
+ 7. Branching is easier
+ 8. Distributed Development
+
+--> The git workflow is divided into three states:
+
+1. Working Directory - Modify files in your working directory.
+2. Staging area (Index) - Stage the files and add snapshots of them to your stagging area.
+3. Git directory (Repository) - Perform a commit that stores the snapshots permanently
+to your Git directory.
+Checkout any exisiting version, make changes, stage them and commit.
+
+--> Branch in Git: It is used to keep your changes until they are ready. You can do your
+work on a branch while the main branch (master) remains stable. After you are done with
+your work, you can merge it with the main office.
+
+--> For Git we need to install in our system.
+
+https://git-scm.com/download/win
+
+--> gitbash
+
+Git Commands:
+------------
+$ git init (create blank repo)
+$ git add . (add the file) 
+$ git status (check the status)
+$ git commit -m "first commit" 
+$ git status
+
+--> Github is a web platfrom which provide us space to upload source code, where we
+can create our repo and push to pull our code
+
+https://github.com/
+
+$ git brach -M master
+$ git remote add origin https://github.com/saichinna94/Transparent-LoginPage.git
+$ git push -u origin master
+
+$ git config --global user.name "saichinna94"
+$ git config --global user.email "rapolusaishankar@gmail.com"
+
+===================================================================================
+
+--> Responsive Design (media query): 
+------------------------------------
+
+@media(media features) {css styles}
+   -> common features:
+            -> min-width and max-width
+            -> orientation
+            -> resolution
+
+--> Many CSS Framework:
+* BootStrap
+* SASS
+* Talwind
+=================================================================================
+Introduction of BootStrap:
+--------------------------
+
+BootStrap: Powerful, extensible, and feature-packed frontend toolkit. 
+Build and customize with Sass, utilize prebuilt grid system and components, 
+and bring projects to life with powerful JavaScript plugins.
+
+https://getbootstrap.com/
+
+--> With the help of it we can create responsive design in very less period of time.
+--> Bootstrap is work on 12 grid system.
+
+
+
